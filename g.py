@@ -1,13 +1,8 @@
-a = [12, 5, 23, 7]
+a = [1, 2, 3, 4]
 b = [] #[10, 5, 10, 7]
 
 
-
+d = 0
 for c in a:
-    if c > 10:
-        b.append(10)
-    else:
-        b.append(c)
-print(b)
-
-
+   d = d + c
+print(d)
