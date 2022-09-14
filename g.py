@@ -6,3 +6,4 @@ d = 0
 for c in a:
    d = d + c
 print(d)
+print('hi')
